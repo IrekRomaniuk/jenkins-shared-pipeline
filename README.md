@@ -1,7 +1,10 @@
 # jenkins-shared-pipeline
 Jenkins shared libraries
 
+Resources:
+
 - https://github.com/devbyaccident/demo-shared-pipeline
+
 - sixeyed/jenkins-pipeline-demo-library
 
 Example of jenkinsfile:
