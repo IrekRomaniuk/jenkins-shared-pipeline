@@ -1,5 +1,5 @@
 pipeline {
-    agent agent any
+    agent any
     environment {
         API_KEY= credentials("${config.panorama_api_key}")
     }
