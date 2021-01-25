@@ -7,9 +7,17 @@ Resources:
 
 - sixeyed/jenkins-pipeline-demo-library
 
+Requirements:
+
+- Pipeline: Shared Groovy Libraries through HTTP retrieval
+
 Example of jenkinsfile:
 
 ```
-@Library('https://github.com/IrekRomaniuk/jenkins-shared-pipeline') _
+@Library('github.com/IrekRomaniuk/jenkins-shared-pipeline@main') _
+
+echoPipeline {
+    message = "I tried to ping a thousand times."
+}
 
 ```
