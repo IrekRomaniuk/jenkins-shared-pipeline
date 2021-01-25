@@ -1,0 +1,7 @@
+@Library('github.com/IrekRomaniuk/jenkins-shared-pipeline@main') _
+
+panoramaPushdg {
+    playbook_path="./pipelines/panorama_commit_jenkins.yml"
+    ip_address="1.2.3.4"
+    device_group="device_group_name"
+}
