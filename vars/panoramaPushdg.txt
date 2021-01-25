@@ -1,6 +1,7 @@
 @Library('github.com/IrekRomaniuk/jenkins-shared-pipeline@main') _
 
 panoramaPushdg {
+    panorama_api_key="panorama_api_key"
     playbook_path="./pipelines/panorama_push_device_group.yml"
     ip_address="1.2.3.4"
     device_group="device_group_name"
